@@ -24,7 +24,13 @@ O GitHub Desktop vai abrir, em sua máquina, perguntando onde deve clonar o repo
 Abra o terminal e execute o código entre aspas "copy .env.example .env"
 
 ### 4) Mude o nome do banco no arquivo .env
-Deve estar na linha 14 e originalmente deve estar escrito desta forma "DB_DATABASE=laravel" mude a palavra "laravel" para o nome do banco do seu projeto
+Altere esta parte do código para ficar igual esta abaixo.
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=meuprojeto
+DB_USERNAME=root
+DB_PASSWORD=
 
 ### 5) Instale as depedências
 Abra o terminal e execute o código entre aspas "composer install"
